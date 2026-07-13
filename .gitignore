@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Generated models and intermediate data
+artifacts/
+archive/
+data/interim/
+*.pt
+*.pth
+*.pkl
+*.rar
+
+# Raw and downloaded data are documented but not versioned.
+data/eagle-i/
+data/geo/
+data/weather/
+
+# Keep only the publication-ready processed dataset.
+data/processed/*
+!data/processed/merged_weather_outage_data.csv
+

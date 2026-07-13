@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If this project supports your work, please cite it using this metadata."
+title: "Michigan Power Outage Risk Prediction"
+type: software
+authors:
+  - family-names: "Khawar"
+    given-names: "Fahad Qaseem"
+year: 2026
+license: MIT
+keywords:
+  - power outage prediction
+  - graph neural network
+  - spatio-temporal machine learning
+  - extreme weather
+  - Michigan
+  - PyTorch Geometric
+repository-code: "https://github.com/fahadqaseem/michigan-power-outage-prediction"
+
